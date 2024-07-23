@@ -1,0 +1,580 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+}
+
+body {
+    background-color: #f5f5f7;
+    color: #333;
+}
+
+.navbar {
+    position: fixed;
+    background-color: rgba((223, 222, 222), 0.8);
+    color: black;
+    z-index: 1;
+    width: 100vw;
+    
+}
+.nav-main{
+    display: flex;
+    justify-content: center;
+    padding: 15px 20px;
+    background-color: rgba(223, 222, 222, 0.8);
+
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 35px;
+
+}
+.nav-logo{
+    font-size: 20px;
+}
+.nav-links a {
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+}
+.navEnd-logo{
+    display: flex;
+    margin-left: 30px;
+    gap: 30px;
+    font-size: 16px;
+}
+.nav-logo3{
+    display: none;
+}
+
+.first-main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.firstbg-img{
+    background: url(./assests/1st\ background\ img.png) no-repeat center/contain; 
+    width: 100vw;
+    margin-top: 40px;
+    height: 75vh;
+
+}
+
+.imgshop-btn button{
+    background: transparent;
+    color: #0066CC;
+    border-radius: 40px;
+    border: 1px solid #016dd9;
+    font-size: 17px;
+    padding: 11px 24px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.firstmain-btn:hover{
+    background-color: #0176ec;
+    color: white;
+}
+.border-div{
+    border: 10px solid rgb(231, 228, 228);
+}
+
+.second-main{
+    background: url(./assests/2nd\ background\ image.jpeg) no-repeat center center/cover;
+    height: 80vh;
+    margin-top: 30px;
+}
+.textSecond-main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+}
+.textSecond-main h1{
+    font-size: 54px;
+}
+.textSecond-main p{
+    font-size: 30px;
+}
+.btnSecond-main{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+.btn2-main{
+    background-color: #047af0;
+    color: white;
+    border-radius: 40px;
+    border: none;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 11px 24px;
+    cursor: pointer;
+}
+.btn2-main:hover{
+    background-color: #0071e2;
+}
+.btn2nd-main{
+    background: transparent;
+    color: #0066CC;
+    border-radius: 35px;
+    border: 1px solid #016dd9;
+    font-size: 17px;
+    padding: 11px 24px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.btn2nd-main:hover{
+    background-color: #0176ec;
+    color: white;
+}
+.thired-main{
+    background: url(./assests/3rd\ background\ image.jpeg) no-repeat center center/cover;
+    height: 70vh;
+    background-color: black;
+}
+.textThired-main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+}
+.textThired-main h1{
+    font-size: 54px;
+    color: white;
+}
+.textThired-main p{
+    font-size: 24px;
+    color: white;
+}
+.btnThired-main{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+.btn3-main{
+    background-color: #047af0;
+    color: white;
+    border-radius: 40px;
+    border: none;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 11px 24px;
+    cursor: pointer;
+}
+.btn3-main:hover{
+    background-color: #0071e2;
+
+}
+.btn3rd-main{
+    background: transparent;
+    color: #0066CC;
+    border-radius: 40px;
+    border: 1px solid #016dd9;
+    font-size: 17px;
+    padding: 11px 24px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.btn3rd-main:hover{
+    background-color: #0176ec;
+    color: white;
+}
+
+.container{
+    background-color: rgb(244, 239, 239);
+}
+.container-1{
+    display: flex;
+}
+.first-container{
+    width: 50%;
+    height: 70vh;
+    background: url(./assests/pic\ 1.jpeg) no-repeat center/cover;
+}
+.textfirst-cont{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+}
+.textfirst-cont h1{
+    font-size: 44px;
+    color: white;
+    font-weight: 500;
+}
+.textfirst-cont p{
+    font-size: 20px;
+    color: white;
+}
+.btnfirst-cont{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+.btn1-cont{
+    background-color: #f8f9fa;
+    color: black;
+    border-radius: 40px;
+    border: none;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 11px 24px;
+    cursor: pointer;
+}
+.btn1-cont:hover{
+    background-color: #f0f0f0;
+
+}
+.btn1st-cont{
+    background: transparent;
+    color: #ffffff;
+    border-radius: 40px;
+    border: 1px solid #ffffff;
+    font-size: 14px;
+    padding: 11px 24px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.btn1st-cont:hover{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
+
+.second-container{
+    width: 50%;
+    height: 70vh;
+    background: url(./assests/pic\ 2.jpeg) no-repeat center/cover;
+}
+
+.textsecond-cont{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+}
+.textsecond-cont h1{
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+}
+.textsecond-cont p{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+.p2{
+    font-weight: 200;
+    margin-top: 10px;
+
+}
+.btnsecond-cont{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+.btn2-cont{
+    background-color: #047af0;
+    color: rgb(255, 255, 255);
+    border-radius: 40px;
+    border: none;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 11px 24px;
+    cursor: pointer;
+}
+.btn2-cont:hover{
+    background-color: #0071e2;
+
+}
+.btn2nd-cont{
+    background: transparent;
+    color: #047af0;
+    border-radius: 40px;
+    border: 1px solid #047af0;
+    font-size: 14px;
+    padding: 11px 24px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.btn2nd-cont:hover{
+    background-color: #047af0;
+    color: rgb(255, 255, 255);
+}
+
+.container-2{
+    display: flex;
+}
+.thired-container{
+    width: 50%;
+    height: 70vh;
+    background: url(./assests/pic\ 3.jpeg) no-repeat center/cover;
+}
+.textThired-cont{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+}
+.textThired-cont h1{
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
+.textThired-cont p{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+.btnThired-cont{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 15px;
+}
+.btn3-cont{
+    background-color: #047af0;
+    color: rgb(255, 255, 255);
+    border-radius: 40px;
+    border: none;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 11px 24px;
+    cursor: pointer;
+}
+.btn3-cont:hover{
+    background-color: #0071e2;
+
+}
+.btn3rd-cont{
+    background: transparent;
+    color: #047af0;
+    border-radius: 40px;
+    border: 1px solid #047af0;
+    font-size: 14px;
+    padding: 11px 24px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.btn3rd-cont:hover{
+    background-color: #047af0;
+    color: rgb(255, 255, 255);
+}
+
+.fourth-container{
+    width: 50%;
+    height: 70vh;
+    background: url(./assests/pic\ 4.jpeg) no-repeat center/cover;
+}
+.textfourth-cont{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+}
+.textfourth-cont h1{
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
+.textfourth-cont p{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+.textfourth-cont .p4{
+    font-size: 14px;
+    color: red;
+    letter-spacing: 2px;
+}
+.btnfourth-cont{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 15px;
+}
+.btn4-cont{
+    background-color: #047af0;
+    color: rgb(255, 255, 255);
+    border-radius: 40px;
+    border: none;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 11px 24px;
+    cursor: pointer;
+}
+.btn4-cont:hover{
+    background-color: #0071e2;
+
+}
+.btn4th-cont{
+    background: transparent;
+    color: #047af0;
+    border-radius: 40px;
+    border: 1px solid #047af0;
+    font-size: 14px;
+    padding: 11px 24px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.btn4th-cont:hover{
+    background-color: #047af0;
+    color: rgb(255, 255, 255);
+}
+.container-3{
+    display: flex;
+}
+.five-container{
+    width: 50%;
+    height: 70vh;
+    background: url(./assests/pic\ 5.jpeg) no-repeat center/cover;
+}
+.textfivth-cont{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+}
+.textfivth-cont h1{
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+}
+.textfivth-cont p{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+.textfivth-cont .p5{
+    padding-left: 30px;
+}
+.btnfivth-cont{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+.btn5-cont{
+    background-color: #047af0;
+    color: rgb(255, 255, 255);
+    border-radius: 40px;
+    border: none;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 11px 24px;
+    cursor: pointer;
+}
+.btn5-cont:hover{
+    background-color: #0071e2;
+
+}
+.btn5th-cont{
+    background: transparent;
+    color: #047af0;
+    border-radius: 40px;
+    border: 1px solid #047af0;
+    font-size: 14px;
+    padding: 11px 24px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.btn5th-cont:hover{
+    background-color: #047af0;
+    color: rgb(255, 255, 255);
+}
+
+.sixth-container{
+    width: 50%;
+    height: 70vh;
+    background: url(./assests/pic\ 6.jpeg) no-repeat center/cover;
+}
+.textsixth-cont{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+}
+.textsixth-cont h1{
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+}
+.textsixth-cont p{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+.p2{
+    font-weight: 200;
+    margin-top: 10px;
+
+}
+.btnsixth-cont{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+.btn6-cont{
+    background-color: #047af0;
+    color: rgb(255, 255, 255);
+    border-radius: 40px;
+    border: none;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 11px 24px;
+    cursor: pointer;
+}
+.btn6-cont:hover{
+    background-color: #0071e2;
+}
+.container-1, .container-2, .container-3, 
+.first-container, .second-container, 
+.thired-container, .fourth-container, 
+.five-container, .sixth-container {
+    margin: 5px 5px; 
+}
+
+.border-div2{
+    margin: 20px 100px;
+    border: 5px solid rgb(231, 228, 228);
+    border-radius: 10px;
+}
+/* footer */
+footer{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 30px;
+}
+footer ul{
+    list-style: none;
+}
+footer ul li{
+    padding-bottom: 10px;
+    cursor: pointer;
+}footer ul li:hover{
+    cursor: pointer;
+    color: blue;
+}
+.main-footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly
+    
+}
+.footer-text p{
+    font-size: larger;
+    margin: 50px;
+}
+.border-div3{
+    margin: 20px 100px;
+    border: 5px solid rgb(231, 228, 228);
+    border-radius: 10px;
+}
