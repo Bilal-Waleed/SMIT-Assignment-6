@@ -10,7 +10,7 @@ body {
     color: #333;
 }
 
-.navbar {
+.navbarr{
     position: fixed;
     background-color: rgba((223, 222, 222), 0.8);
     color: black;
@@ -18,10 +18,10 @@ body {
     width: 100vw;
     
 }
-.nav-main{
+.nav-mainn{
     display: flex;
     justify-content: center;
-    padding: 15px 20px;
+    padding-top: 5px;
     background-color: rgba(223, 222, 222, 0.8);
 
 }
@@ -34,33 +34,39 @@ body {
     margin-left: 35px;
 
 }
-.nav-logo{
+.nav-logoo{
     font-size: 20px;
+    font-weight: 400;
+    margin-right: -2rem;
+
 }
 .nav-links a {
     color: black;
     text-decoration: none;
     font-size: 12px;
-    font-weight: 600;
+    font-weight: 400;
 }
 .navEnd-logo{
     display: flex;
     margin-left: 30px;
     gap: 30px;
     font-size: 16px;
+    font-weight: 400;
+
 }
 .nav-logo3{
     display: none;
 }
 
-.first-main{
+.first-mainn{
     display: flex;
     align-items: center;
     flex-direction: column;
+    background-color: #F5F5F7;
     
 }
-.firstbg-img{
-    background: url(./assests/1st\ background\ img.png) no-repeat center/contain; 
+.firstbackg-img{
+    background: url(./assests/first-bg\ img.png) no-repeat center center/cover; 
     width: 100vw;
     margin-top: 40px;
     height: 75vh;
@@ -90,7 +96,8 @@ body {
 .second-main{
     background: url(./assests/2nd\ background\ image.jpeg) no-repeat center center/cover;
     height: 80vh;
-    margin-top: 30px;
+    margin-top: 10px;
+
 }
 .textSecond-main{
     display: flex;
@@ -108,7 +115,7 @@ body {
     display: flex;
     justify-content: center;
     gap: 20px;
-    margin-top: 20px;
+ 
 }
 .btn2-main{
     background-color: #047af0;
@@ -151,16 +158,18 @@ body {
 .textThired-main h1{
     font-size: 54px;
     color: white;
+    margin-bottom: 20px;
 }
 .textThired-main p{
     font-size: 24px;
     color: white;
+    margin-top: -20px;
 }
 .btnThired-main{
     display: flex;
     justify-content: center;
     gap: 20px;
-    margin-top: 20px;
+
 }
 .btn3-main{
     background-color: #047af0;
@@ -191,7 +200,7 @@ body {
     color: white;
 }
 
-.container{
+.main-container{
     background-color: rgb(244, 239, 239);
 }
 .container-1{
@@ -221,7 +230,7 @@ body {
     display: flex;
     justify-content: center;
     gap: 20px;
-    margin-top: 20px;
+
 }
 .btn1-cont{
     background-color: #f8f9fa;
@@ -268,21 +277,20 @@ body {
     font-size: 40px;
     color: rgb(0, 0, 0);
     font-weight: 500;
+    margin-bottom: 20px;
 }
 .textsecond-cont p{
     font-size: 20px;
     color: rgb(0, 0, 0);
+    margin-top: -15px;
 }
 .p2{
     font-weight: 200;
-    margin-top: 10px;
-
 }
 .btnsecond-cont{
     display: flex;
     justify-content: center;
     gap: 20px;
-    margin-top: 20px;
 }
 .btn2-cont{
     background-color: #047af0;
@@ -340,7 +348,6 @@ body {
     display: flex;
     justify-content: center;
     gap: 20px;
-    margin-top: 15px;
 }
 .btn3-cont{
     background-color: #047af0;
@@ -390,17 +397,18 @@ body {
 .textfourth-cont p{
     font-size: 20px;
     color: rgb(255, 255, 255);
+    margin-top: -5px;
 }
 .textfourth-cont .p4{
     font-size: 14px;
     color: red;
     letter-spacing: 2px;
+    margin-bottom: 10px;
 }
 .btnfourth-cont{
     display: flex;
     justify-content: center;
     gap: 20px;
-    margin-top: 15px;
 }
 .btn4-cont{
     background-color: #047af0;
@@ -455,12 +463,12 @@ body {
 }
 .textfivth-cont .p5{
     padding-left: 30px;
+    margin-top: -10px;
 }
 .btnfivth-cont{
     display: flex;
     justify-content: center;
     gap: 20px;
-    margin-top: 20px;
 }
 .btn5-cont{
     background-color: #047af0;
@@ -506,21 +514,17 @@ body {
     font-size: 40px;
     color: rgb(0, 0, 0);
     font-weight: 500;
+    margin-bottom: 20px;
 }
 .textsixth-cont p{
     font-size: 20px;
     color: rgb(0, 0, 0);
-}
-.p2{
-    font-weight: 200;
-    margin-top: 10px;
-
+    margin-top: -20px;
 }
 .btnsixth-cont{
     display: flex;
     justify-content: center;
     gap: 20px;
-    margin-top: 20px;
 }
 .btn6-cont{
     background-color: #047af0;
@@ -542,39 +546,121 @@ body {
     margin: 5px 5px; 
 }
 
-.border-div2{
-    margin: 20px 100px;
-    border: 5px solid rgb(231, 228, 228);
-    border-radius: 10px;
+/* carousel  */
+
+.carousel-sec{
+    width: 100%;
 }
-/* footer */
-footer{
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-    padding: 30px;
+
+/* descript sec */
+
+.descript-sec{
+    margin-top: 40px;
+    width: 100%;
+    /* padding: 51px 122px; */
+    display: flex;
+    justify-content: center;
+    background-color: #f4f4f8;
+    color: rgb(124, 124, 124);
 }
-footer ul{
+.innerdes{
+    padding-top: 20px;
+    width: 65%;
+}
+.innerdes p{
+    font-size:12px;
+    line-height: 1.5;
+}
+.innerdes a{
+    color:black;
+}
+
+/* footer  */
+
+.mainFooter {
+    width: 100%;
+    display: flex;
+    background-color:  #f4f4f8;
+    justify-content: center;
+}
+.inner-mainfooter{
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px #0000001a solid;
+    padding-top: 20px;
+}
+.mainFooter ul {
     list-style: none;
 }
-footer ul li{
-    padding-bottom: 10px;
-    cursor: pointer;
-}footer ul li:hover{
-    cursor: pointer;
-    color: blue;
+
+.mainFooter ul li a {
+    color: #000000ad;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    letter-spacing: inherit;
+    text-align: inherit;
 }
-.main-footer{
+
+.mainFooter ul li {
+    padding: 6px 1px;
+}
+
+.mainFooter ul h3 {
+    font-size: 12px;
+    line-height: 1.3333733333;
+    font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-weight: 600;
+    outline: none;
+    color: #000000e0;
+}
+
+.footer-content {
+    width: 100%;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly
-    
+    justify-content: center;
+    background-color: #f4f4f8;
+}    
+
+.inner-footercontent{
+    width: 65%;
+    display: flex;
+    font-size: 12px;
 }
-.footer-text p{
-    font-size: larger;
-    margin: 50px;
+.footer-content p {
+    width: 100%;
 }
-.border-div3{
-    margin: 20px 100px;
-    border: 5px solid rgb(231, 228, 228);
-    border-radius: 10px;
+.main-copyright{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #f4f4f8;;
+}
+.copyright{
+    border-top: 2px #0000001a solid;
+    padding-top: 18px;
+    display: flex;
+    justify-content: center;
+    width: 65%;
+    display: flex;
+    font-size: 12px;
+}
+.copyright i{
+    padding: 4px 5px;
+}
+
+@media (max-width: 946px){
+    .nav-links{
+        display: none;
+    }
+    .nav-logo3{
+        display: block;
+    }
+    .navEnd-logo{
+        display: flex;
+        justify-content: end;
+    }
 }
